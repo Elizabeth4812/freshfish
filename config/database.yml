@@ -83,6 +83,4 @@ test:
 #
 production:
   <<: *default
-  
-  username: postgres
-  password: 1213
+ database: freshfish
