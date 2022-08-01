@@ -84,4 +84,5 @@ test:
 production:
   <<: *default
   
-  password: <%= ENV["FRESHFISH_DATABASE_PASSWORD"] %>
+  username: postgres
+  password: 1213
